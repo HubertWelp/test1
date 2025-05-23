@@ -53,7 +53,7 @@ int main()
 
     while(t1.getBusy() || t2.getBusy())
         sleep(1);
-    cout << "t1 und t2 fertig\n";
+    cout << "t1 and t2 finished\n";
 
     t1.setStopZeit(5);
     t1.start();
