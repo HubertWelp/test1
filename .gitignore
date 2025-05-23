@@ -1,0 +1,9 @@
+# exclude everything 
+*
+
+# define exceptions
+!.gitignore
+!*.cpp
+!*.h
+!test.pro
+!.txt
