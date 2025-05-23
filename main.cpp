@@ -24,7 +24,7 @@ public:
 };
 void Tack::aktualisiere(Subjekt* s)
 {
-    cout << "tack\n";
+    cout << "tock\n";
 }
 class Tick : public Beobachter
 {
@@ -39,7 +39,7 @@ void Tick::aktualisiere(Subjekt* s)
 int main()
 {
     int a;
-    Timer t1,t2(5);
+    Timer t1(8),t2(7);
     Tack tack;
     Tick tick;
 
@@ -60,7 +60,7 @@ int main()
     while(t1.getBusy())
         sleep(1);
     cout << "t1 fertig\n";
-    cin >> a;
+
 
 //    int a;
 //    cin >> a;

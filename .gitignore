@@ -1,3 +1,5 @@
 # user profile 
-test.pro.user
+test.pro.user*
 
+# no build files
+build/
