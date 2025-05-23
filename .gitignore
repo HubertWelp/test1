@@ -6,4 +6,4 @@
 !*.cpp
 !*.h
 !test.pro
-!.txt
+!*.txt
